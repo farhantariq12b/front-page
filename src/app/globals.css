@@ -18,10 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: radial-gradient(
+    circle at 400px 0,
+    rgba(43, 45, 66, 1) 0%,
+    rgba(0, 131, 254, 1) 0%,
+    rgba(43, 45, 66, 1) 25%
+  );
 }
